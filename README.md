@@ -1,4 +1,4 @@
-# J1
+# J1 bots
 
 The purpose of this project is to provide child-rearing education solutions for new parents, specifically targeting preschool children who already exhibit autonomous behavior. Suitable advice will be offered through a chatbot.
 
@@ -12,27 +12,4 @@ Provide various tool pages for testing purposes first:
 
 - [x] Chatbot by using OpenAI APIs
 - [x] Chatbot by using Langchain
-- [x] A tool page for saving TikTok video-to-text data to a vector database
-- [ ] Chatbot with a basic RAG strategy
-
-## Development
-
-Make sure you've install pipenv first:
-
-```console
-$ pip install --user pipenv
-```
-
-Then:
-
-```console
-$ git clone https://github.com/vincent714/J1.git
-
-$ cd J1
-
-$ pipenv install
-
-$ pipenv shell
-
-$ streamlit run ./Basic_Bot.py
-```
+- [x] Chatbot with a basic RAG strategy - RAG Fusion
