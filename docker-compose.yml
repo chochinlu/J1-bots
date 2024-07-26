@@ -10,3 +10,4 @@ services:
     volumes:
       - ./.streamlit:/app/.streamlit
       - ./chroma.db:/app/chroma.db
+      - .:/app
