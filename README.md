@@ -12,4 +12,6 @@ Provide various tool pages for testing purposes first:
 
 - [x] Chatbot by using OpenAI APIs
 - [x] Chatbot by using Langchain
-- [x] Chatbot with a basic RAG strategy - RAG Fusion
+- [x] Chatbot based on RAG-fusion strategy
+- [x] Chatbot based on Decomposition strategy
+- [x] Chatbot based on HyDE strategy
