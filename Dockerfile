@@ -20,4 +20,4 @@ RUN pip install pipenv && pipenv install --dev --system --deploy
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-CMD pipenv run streamlit run ./Basic_Bot.py
+CMD pipenv run streamlit run ./OpenAI_Bot.py
